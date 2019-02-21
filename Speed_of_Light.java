@@ -11,7 +11,7 @@ public class Speed {
 		double speed_of_light;
 		speed_of_light = 300000;//km per second
 		
-		//Declare list of variable corresponding to planets 
+		//Declare list of vars corresponding to planets 
 		/*
 		 * String Mars = Mars;
 		 * String Venus = Venus;
