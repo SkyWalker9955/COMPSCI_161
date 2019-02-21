@@ -1,20 +1,9 @@
 import java.util.Scanner;
 
+//Defines the time needed to reach the space body
 public class Speed_of_Light {
 
 	public static void main(String[] args) {
-		//Defines the time needed to reach the space body 
-		
-		
-		// && AND operator , || (double pipe) OR condition
-		
-		/* Switch Statement -  checks all statements
-		 * Data type for Switch statement: byte, short, int or char 
-		 * 
-		 * break out of the statement
-		 * 
-		 */
-		
 		
 		//declare and assign the variable speed_of_light per hour 
 		double speed_of_light;
