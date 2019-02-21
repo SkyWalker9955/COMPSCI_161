@@ -39,7 +39,7 @@ public class ComputeChange {
 	  	System.out.println(dimes + " dimes");
 	  	System.out.println(nickels + " nickels");
 	  	System.out.println(pennies + " pennies" );
-
-    }
+	
+	}
 
 }
