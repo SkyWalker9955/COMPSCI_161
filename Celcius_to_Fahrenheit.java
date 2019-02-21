@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
+//Displays a convertation from Celcius to Fahrenheit
 public class Celcius_to_Fahrenheit {
 
 	public static void main(String[] args) {
-		//Displays a convertation from Celcius to Fahrenheit
 		
-		double Fahrenheit;
-		//Declaring a var Fahrenheit 
+		//Declaring a var Fahrenheit
+		double Fahrenheit; 
 		
-		double Celcius;
 		//Declaring Celcius var
+		double Celcius;
 		
+		//Create a Scanner
 		Scanner input = new Scanner(System.in);
 		
 		//Prompt
