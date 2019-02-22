@@ -6,8 +6,8 @@ public class ComputeTax {
 
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Status numbers: \n0 - single, \n1 - married (filling together), \n2 - married" +
-							"(filling separately), \n3 - head of household)");
+		System.out.println("Status numbers: \n0 - single \n1 - married (filling together) \n2 - married" +
+							"(filling separately) \n3 - head of household)");
 
 		//Prompt
 		System.out.println("\nEnter your status: ");
