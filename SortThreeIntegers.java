@@ -22,14 +22,33 @@ public class SortThreeIntegers {
 		if (i < k && k < j) {
 		}
 		else if (i < k && k > j) {
-			temp = j;
-			j = k;
-			k = i;
-			i = temp;
+			if (i > j) {
+				temp = j;
+				j = k;
+				k = i;
+				i = temp;
+			}
+			else if (i < j) {
+				temp = k;
+				k = j;
+				j = temp;
+			}
 		}
 		else if (i > k && k < j) {
-			temp = k;
-			k = j;
+			if (i > j) {
+				temp = k;
+				k = j;
+				j = i;
+				i = temp;
+			}
+			else if (i < j) {
+				temp = i;
+				i = k;
+				k = temp;
+			}
+		}
+		else {
+			temp = j;
 			j = i;
 			i = temp;
 		}
