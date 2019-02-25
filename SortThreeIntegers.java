@@ -54,7 +54,7 @@ public class SortThreeIntegers {
 		}
 		input.close();
 
-    //Print the result
+    		//Print the result
 		System.out.println("\n" + i + "\n" + k + "\n" + j);
 
 	}
