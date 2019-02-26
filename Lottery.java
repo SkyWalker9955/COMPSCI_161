@@ -12,12 +12,9 @@ public class Lottery {
 		
 		//System.out.println(winning_comb);
 		//Prompt 
-		System.out.println("Enter your lottery pick (two digits): ")
+		System.out.println("Enter your lottery pick (two digits): ");
 		int guess = input.nextInt();
-		
-		
-		
-		
+			
 	}
 
 }
