@@ -11,10 +11,11 @@ public class LeapYear {
 	System.out.println("Enter the year: ");
 	int LeapYear = input.nextInt();
 	
-	//Leap year formula
-	if (LeapYear % 4 == 0 && LeapYear % 100 != 0 || LeapYear % 400 == 0) {
+		//Leap year formula
+		if (LeapYear % 4 == 0 && LeapYear % 100 != 0 || LeapYear % 400 == 0) {
 		System.out.println("Is a leap year.");
-		} else {
+		} 
+		else {
 		System.out.println("Not a leap year.");
 		}
 	}
