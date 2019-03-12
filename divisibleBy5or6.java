@@ -11,9 +11,9 @@ public class divisibleBy5or6 {
 				System.out.print(i + " ");
 				
 				// updating a counter 
-                counter++;
-                if (counter % 10 == 0) 
-                	System.out.println("");
+                		counter++;
+               			if (counter % 10 == 0) 
+                		System.out.println("");
 			}
 		}
 	}	
