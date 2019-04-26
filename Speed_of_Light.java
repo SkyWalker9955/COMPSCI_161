@@ -1,7 +1,7 @@
 import java.awt.List;
 import java.util.*;
 
-public class Speed {
+public class Speed_of_Light {
 
 	public static void main(String[] args) {
 		//Defines the time needed to reach the space body 
