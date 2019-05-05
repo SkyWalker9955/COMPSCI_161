@@ -8,7 +8,7 @@ public class Speed_of_Light {
 		
 		
 		//declare and assign the variable speed_of_light per hour 
-		double speed_of_light;
+		final double speed_of_light;
 		speed_of_light = 300000;//km per second
 		
 		//Declare list of vars corresponding to planets 
