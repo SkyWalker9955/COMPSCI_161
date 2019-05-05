@@ -6,18 +6,36 @@ public class program_10_Levytskyi {
       //create an array.
       int[] myArray = {891,569, 921, 187, 343, 476, 555};
 
-      //invoke the method and print it.
-      System.out.println(reverseArray(myArray));
+      //invoke methods and print it.
+      printArray(reverseArray(myArray));
+      printArray(myArray);
 
    }
 
    public static void reverseArray(int inputArray[]) {
+      
+      //create int[] reverse to store new values. 
+      int[] reverse = new int[inputArray.length]; 
+      int j = 0;
 
-      for(int i = 0; int j = 0; i < inputArray.length; 
-          j > inputArray.lerngth; i++; j--)          {
-         
-      }//end the loop
+      //create the condition loop.
+      for(int i = 0; j = reverse.length - 1; 
+          i < inputArray.length;  i++; j--) {
+        
+         reverse[j] = inputArray[i]; 
+ 
+      }//end the loop.
 
-   }//end reverseArray mehod
+   }//end reverseArray mehod.
+   
+   public static void printArray(int array[]) {
+      
+      //create the condition loop.
+      for(int i = 0; i < array.length; i++) {
+      //print array.
+      System.out.println(array[i]);
 
-}
+      }//end printArray.
+   }//end printArray method.
+
+}//end program.
