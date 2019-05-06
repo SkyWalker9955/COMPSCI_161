@@ -1,41 +1,42 @@
 import java.util.*;
 
 public class program_10_Levytskyi { 
-   public static void main(Strings[] args) {
-    
+   public static void main(String[] args) {
+
       //create an array.
-      int[] myArray = {891,569, 921, 187, 343, 476, 555};
+      int[] myArray = {891, 569, 921, 187, 343, 476, 555};
 
       //invoke methods and print it.
-      printArray(reverseArray(myArray));
       printArray(myArray);
+      System.out.println("\n");
+      reverseArray(myArray);
+   }//end main method
 
-   }
+//------------------------------------------------------------------------
 
-   public static void reverseArray(int inputArray[]) {
-      
+   public static void reverseArray(int[] inputArray) {
+
       //create int[] reverse to store new values. 
-      int[] reverse = new int[inputArray.length]; 
-      int j = 0;
+      int[] reverse = new int[inputArray.length];
 
       //create the condition loop.
-      for(int i = 0; j = reverse.length - 1; 
-          i < inputArray.length;  i++; j--) {
-        
-         reverse[j] = inputArray[i]; 
- 
-      }//end the loop.
+      for(int i = 0, j = reverse.length - 1; 
+          i < inputArray.length;  i++, j--) {
 
-   }//end reverseArray mehod.
-   
-   public static void printArray(int array[]) {
+         reverse[j] = inputArray[i]; 
+         System.out.print(inputArray[j] + " ");
+      }//end the loop.
       
+   }//end reverseArray mehod.
+
+//------------------------------------------------------------------------
+
+   public static void printArray(int[] array) {
+
       //create the condition loop.
       for(int i = 0; i < array.length; i++) {
-      //print array.
-      System.out.println(array[i]);
-
-      }//end printArray.
-   }//end printArray method.
-
-}//end program.
+         System.out.print(array[i] + " ");
+      }//end loop
+   }
+//------------------------------------------------------------------------
+} //end program 
