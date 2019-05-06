@@ -7,8 +7,9 @@ public class program_10_Levytskyi {
       int[] myArray = {891, 569, 921, 187, 343, 476, 555};
 
       //invoke methods and print it.
+      System.out.println("Array before reverse:");
       printArray(myArray);
-      System.out.println("\n");
+      System.out.println("\n\nArray after reverse:");
       reverseArray(myArray);
    }//end main method
 
